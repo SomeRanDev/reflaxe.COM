@@ -6,8 +6,14 @@ import LinkButton from "./LinkButton";
 function App() {
   return (
     <div className="App">
-      <div className="Background">
-        <div className="Content">
+      <div
+        className="Background"
+        style={{ position: "fixed", overflow: "auto" }}
+      >
+        <div
+          className="Content"
+          style={{ position: "fixed", overflow: "auto" }}
+        >
           <FirstHeader />
           <br />
           <p>A Haxe framework for creating compilation targets using macros.</p>
