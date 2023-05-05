@@ -1,0 +1,110 @@
+$ease: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+.ProjectButton {
+  margin: 12px;
+  width: 100%;
+
+  text-align: left;
+
+  font-size: 13pt;
+  display: inline-block;
+  font-family: PixelFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding: 12px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: box-shadow 0.4s $ease, width 0.4s $ease,
+    background-color 0.4s $ease, transform 0.4s $ease;
+}
+
+.ProjectButton:hover {
+  transform: translateY(-4px);
+}
+
+.ProjectButton:active {
+  transform: translate(0px, 4px);
+}
+
+$redBase: #9c524e;
+$redBorder: #4b3d44;
+$redPress: #80433f;
+$redPressShadow: #3b3036;
+
+.RedButton {
+  background-color: $redBase;
+  border: solid 2px $redBorder;
+  box-shadow: 0px 4px 0px $redBorder;
+}
+
+.RedButton:hover {
+  box-shadow: 0px 8px 0px $redBorder;
+}
+
+.RedButton:active {
+  background-color: $redPress;
+  box-shadow: 0px 0px 0px $redPressShadow;
+}
+
+$blueBase: #5f4e9c;
+$blueBorder: #3d444a;
+$bluePress: #3f4980;
+$bluePressShadow: #30333b;
+
+.BlueButton {
+  background-color: $blueBase;
+  border: solid 2px $blueBorder;
+  box-shadow: 0px 4px 0px $blueBorder;
+}
+
+.BlueButton:hover {
+  box-shadow: 0px 8px 0px $blueBorder;
+}
+
+.BlueButton:active {
+  background-color: $bluePress;
+  box-shadow: 0px 0px 0px $bluePressShadow;
+}
+
+$greenBase: #47794f;
+$greenBorder: #3d444a;
+$greenPress: #2e4b25;
+$greenPressShadow: #303b30;
+
+.GreenButton {
+  background-color: $greenBase;
+  border: solid 2px $greenBorder;
+  box-shadow: 0px 4px 0px $greenBorder;
+}
+
+.GreenButton:hover {
+  box-shadow: 0px 8px 0px $greenBorder;
+}
+
+.GreenButton:active {
+  background-color: $greenPress;
+  box-shadow: 0px 0px 0px $greenPressShadow;
+}
+
+$purpleBase: #6d4779;
+$purpleBorder: #4a3d48;
+$purplePress: #5d3161;
+$purplePressShadow: #3b303b;
+
+.PurpleButton {
+  background-color: $purpleBase;
+  border: solid 2px $purpleBorder;
+  box-shadow: 0px 4px 0px $purpleBorder;
+}
+
+.PurpleButton:hover {
+  box-shadow: 0px 8px 0px $purpleBorder;
+}
+
+.PurpleButton:active {
+  background-color: $purplePress;
+  box-shadow: 0px 0px 0px $purplePressShadow;
+}
