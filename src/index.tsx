@@ -5,6 +5,7 @@ import "./scss/buttons.scss";
 import "./scss/comps.scss";
 import "./scss/font.scss";
 import "./scss/format.scss";
+import "./scss/scrollbar.scss";
 import App from "./ts/App";
 
 const root = ReactDOM.createRoot(
