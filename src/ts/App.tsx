@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../logo.svg";
 import FirstHeader from "./FirstHeader";
 import ProjectButton from "./ProjectButton";
 import LinkButton from "./LinkButton";
