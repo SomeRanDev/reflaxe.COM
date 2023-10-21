@@ -24,7 +24,7 @@ function App() {
                 <LinkButton
                   name="Start-up Guide"
                   desc=""
-                  url="https://github.com/RobertBorghese/reflaxe"
+                  url="https://github.com/SomeRanDev/reflaxe"
                   buttonClass="GreenButton"
                   style={{ width: "100%" }}
                 />
@@ -34,7 +34,7 @@ function App() {
                 <LinkButton
                   name="View on Github"
                   desc=""
-                  url="https://github.com/RobertBorghese/reflaxe"
+                  url="https://github.com/SomeRanDev/reflaxe"
                   buttonClass="BlueButton"
                   style={{}}
                 />
@@ -44,7 +44,7 @@ function App() {
                 <LinkButton
                   name="API Docs"
                   desc=""
-                  url="https://github.com/RobertBorghese/reflaxe"
+                  url="https://SomeRanDev.github.io/reflaxe"
                   buttonClass="PurpleButton"
                   style={{}}
                 />
@@ -60,19 +60,19 @@ function App() {
             <ProjectButton
               name="Reflaxe/C++"
               desc="An alternative C++ target for Haxe that generates dependent-less, GC-less C++17 code."
-              url="https://github.com/RobertBorghese/reflaxe.CPP"
+              url="https://github.com/SomeRanDev/reflaxe.CPP"
               buttonClass="RedButton"
             />
             <ProjectButton
               name="Reflaxe/C#"
               desc="A remake of the Haxe/C# target written entirely within Haxe using Reflaxe."
-              url="https://github.com/RobertBorghese/reflaxe.CSharp"
+              url="https://github.com/SomeRanDev/reflaxe.CSharp"
               buttonClass="RedButton"
             />
             <ProjectButton
               name="Reflaxe/GDScript"
               desc="Compile Haxe to GDScript 2.0 as easily as you'd output to any other target."
-              url="https://github.com/RobertBorghese/Haxe-to-GDScript"
+              url="https://github.com/SomeRanDev/Haxe-to-GDScript"
               buttonClass="RedButton"
             />
           </div>
